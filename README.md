@@ -7,7 +7,7 @@ Thanks to: [Afik Deri](https://github.com/AfikDeri) and WeCodeTutorials
 
 ``` bash
 # go into the project
-cd vue-laravel-image-uploader
+cd laravel-vue-image-uploader
 
 # create a .env file
 cp .env.example .env
