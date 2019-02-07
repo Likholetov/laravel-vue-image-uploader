@@ -50,12 +50,10 @@
             },
             OnDragLeave(e) {
                 e.preventDefault()
-
+                
                 this.dragCount--
-
-                if(this.dragCount <= 0){
+                if (this.dragCount <= 0)
                     this.isDragging = false
-                }
             },
             onInputChange(e) {
                 const files = e.target.files
@@ -169,7 +167,6 @@
 
         .images-preview {
             display: flex;
-            justify-content: space-between;
             flex-wrap: wrap;
             margin-top: 20px;
 
